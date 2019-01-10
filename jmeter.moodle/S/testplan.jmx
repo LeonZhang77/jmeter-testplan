@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="pageactivityid" elementType="Argument">
             <stringProp name="Argument.name">pageactivityid</stringProp>
-            <stringProp name="Argument.value">161</stringProp>
+            <stringProp name="Argument.value">117</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumactivityid" elementType="Argument">
@@ -49,12 +49,12 @@
           </elementProp>
           <elementProp name="forumdiscussionid" elementType="Argument">
             <stringProp name="Argument.name">forumdiscussionid</stringProp>
-            <stringProp name="Argument.value">2</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumreplyid" elementType="Argument">
             <stringProp name="Argument.name">forumreplyid</stringProp>
-            <stringProp name="Argument.value">6</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
