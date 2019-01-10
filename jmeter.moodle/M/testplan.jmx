@@ -24,7 +24,7 @@
           </elementProp>
           <elementProp name="host" elementType="Argument">
             <stringProp name="Argument.name">host</stringProp>
-            <stringProp name="Argument.value">rglz-moodle.azurewebsites.net</stringProp>
+            <stringProp name="Argument.value">rglz-moodle-p3v2.azurewebsites.net</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="sitepath" elementType="Argument">
@@ -34,27 +34,27 @@
           </elementProp>
           <elementProp name="courseid" elementType="Argument">
             <stringProp name="Argument.name">courseid</stringProp>
-            <stringProp name="Argument.value">3</stringProp>
+            <stringProp name="Argument.value">2</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="pageactivityid" elementType="Argument">
             <stringProp name="Argument.name">pageactivityid</stringProp>
-            <stringProp name="Argument.value">233</stringProp>
+            <stringProp name="Argument.value">161</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumactivityid" elementType="Argument">
             <stringProp name="Argument.name">forumactivityid</stringProp>
-            <stringProp name="Argument.value">371</stringProp>
+            <stringProp name="Argument.value">307</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumdiscussionid" elementType="Argument">
             <stringProp name="Argument.name">forumdiscussionid</stringProp>
-            <stringProp name="Argument.value">11</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumreplyid" elementType="Argument">
             <stringProp name="Argument.name">forumreplyid</stringProp>
-            <stringProp name="Argument.value">471</stringProp>
+            <stringProp name="Argument.value">1</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
