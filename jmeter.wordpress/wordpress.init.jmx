@@ -15,17 +15,17 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="service_host" elementType="Argument">
             <stringProp name="Argument.name">service_host</stringProp>
-            <stringProp name="Argument.value">${__P(webserver,rglz-wp0711.azurewebsites.net)}</stringProp>
+            <stringProp name="Argument.value">${__P(webserver,rglz-wp-507.azurewebsites.net)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="service_port" elementType="Argument">
             <stringProp name="Argument.name">service_port</stringProp>
-            <stringProp name="Argument.value">${__P(service_port,80)}</stringProp>
+            <stringProp name="Argument.value">${__P(service_port,443)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="service_protocol" elementType="Argument">
             <stringProp name="Argument.name">service_protocol</stringProp>
-            <stringProp name="Argument.value">${__P(service_protocol,http)}</stringProp>
+            <stringProp name="Argument.value">${__P(service_protocol,https)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="static_posts_title_filename" elementType="Argument">
@@ -454,7 +454,7 @@
           <hashTree>
             <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
               <collectionProp name="Asserion.test_strings">
-                <stringProp name="2023317268">&lt;title&gt;Edit Post</stringProp>
+                <stringProp name="-1078688447">&lt;title&gt;Add New Post</stringProp>
               </collectionProp>
               <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
               <boolProp name="Assertion.assume_success">false</boolProp>
