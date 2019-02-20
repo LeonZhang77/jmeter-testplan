@@ -19,7 +19,7 @@
           </elementProp>
           <elementProp name="size" elementType="Argument">
             <stringProp name="Argument.name">size</stringProp>
-            <stringProp name="Argument.value">L</stringProp>
+            <stringProp name="Argument.value">M</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="host" elementType="Argument">
@@ -34,27 +34,27 @@
           </elementProp>
           <elementProp name="courseid" elementType="Argument">
             <stringProp name="Argument.name">courseid</stringProp>
-            <stringProp name="Argument.value">3</stringProp>
+            <stringProp name="Argument.value">4</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="pageactivityid" elementType="Argument">
             <stringProp name="Argument.name">pageactivityid</stringProp>
-            <stringProp name="Argument.value">236</stringProp>
+            <stringProp name="Argument.value">544</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumactivityid" elementType="Argument">
             <stringProp name="Argument.name">forumactivityid</stringProp>
-            <stringProp name="Argument.value">371</stringProp>
+            <stringProp name="Argument.value">678</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumdiscussionid" elementType="Argument">
             <stringProp name="Argument.name">forumdiscussionid</stringProp>
-            <stringProp name="Argument.value">11</stringProp>
+            <stringProp name="Argument.value">111</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="forumreplyid" elementType="Argument">
             <stringProp name="Argument.name">forumreplyid</stringProp>
-            <stringProp name="Argument.value">471</stringProp>
+            <stringProp name="Argument.value">971</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -74,8 +74,8 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">1</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__P(users,1000)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__P(rampup,100)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__P(users,100)}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__P(rampup,40)}</stringProp>
         <longProp name="ThreadGroup.start_time">1378187955000</longProp>
         <longProp name="ThreadGroup.end_time">1378187955000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
@@ -311,10 +311,10 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">${__property(loops,loops,6)}</stringProp>
+          <stringProp name="LoopController.loops">${__property(loops,loops,5)}</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">${__property(users,users,1000)}</stringProp>
-        <stringProp name="ThreadGroup.ramp_time">${__property(rampup,rampup,100)}</stringProp>
+        <stringProp name="ThreadGroup.num_threads">${__property(users,users,100)}</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">${__property(rampup,rampup,40)}</stringProp>
         <longProp name="ThreadGroup.start_time">1376636813000</longProp>
         <longProp name="ThreadGroup.end_time">1376636813000</longProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
