@@ -15,17 +15,17 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="service_host" elementType="Argument">
             <stringProp name="Argument.name">service_host</stringProp>
-            <stringProp name="Argument.value">${__P(webserver,rglz-wp-us.azurewebsites.net)}</stringProp>
+            <stringProp name="Argument.value">${__P(webserver,rglz-perf-072-us-1.azurewebsites.net)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="service_port" elementType="Argument">
             <stringProp name="Argument.name">service_port</stringProp>
-            <stringProp name="Argument.value">${__P(service_port,80)}</stringProp>
+            <stringProp name="Argument.value">${__P(service_port,443)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="service_protocol" elementType="Argument">
             <stringProp name="Argument.name">service_protocol</stringProp>
-            <stringProp name="Argument.value">${__P(service_protocol,http)}</stringProp>
+            <stringProp name="Argument.value">${__P(service_protocol,https)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="blog_posts_filename" elementType="Argument">

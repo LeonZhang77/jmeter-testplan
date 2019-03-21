@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="service_host" elementType="Argument">
             <stringProp name="Argument.name">service_host</stringProp>
-            <stringProp name="Argument.value">${__P(webserver,rglz-wp-us.azurewebsites.net)}</stringProp>
+            <stringProp name="Argument.value">${__P(webserver,rglz-perf-072-us-1.azurewebsites.net)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="service_port" elementType="Argument">
